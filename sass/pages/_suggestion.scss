@@ -1,0 +1,115 @@
+.suggestion {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: $size-5x;
+  color: $third-color;
+  margin: $size-2x;
+  font-family: $main-font;
+  background: $third-color-dark;
+  border-radius: $size-2x;
+  &-desc {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: $size-5x;
+    &-title {
+      padding: $size-x;
+      color: $secondary-color;
+      font-weight: $fifth-font-weight;
+    }
+    &-subtitle {
+      padding: $size-x;
+      color: $secondary-color;
+    }
+    &-btn-meter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &-icon {
+        color: darken($third-color-darken, 10%);
+        margin-right: $size-2x;
+      }
+      &-text {
+        color: $secondary-color;
+        font-weight: $fifth-font-weight;
+      }
+    }
+  }
+}
+.card-main {
+  &-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $size-2x;
+    &-text {
+      font-weight: $fifth-font-weight;
+      color: $secondary-color;
+      font-family: $main-font;
+    }
+  }
+  &-planned {
+    padding: $size-2x;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    &-circle {
+      width: 15px;
+      height: 15px;
+      background: $forth-color;
+      border-radius: $size-4x;
+    }
+    &-text {
+      font-family: $main-font;
+      margin-left: $size-3x;
+    }
+    &-meter {
+      font-family: $main-font;
+      margin-left: $size-12x * 2;
+      font-weight: $fifth-font-weight;
+    }
+  }
+  &-progress {
+    padding: $size-2x;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    &-circle {
+      width: 15px;
+      height: 15px;
+      background: $main-color;
+      border-radius: $size-4x;
+    }
+    &-text {
+      font-family: $main-font;
+      margin-left: $size-3x;
+    }
+    &-meter {
+      font-family: $main-font;
+      margin-left: $size-12x + 40px;
+      font-weight: $fifth-font-weight;
+    }
+  }
+  &-live {
+    padding: $size-2x;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    &-circle {
+      width: 15px;
+      height: 15px;
+      background: $primary-color;
+      border-radius: $size-4x;
+    }
+    &-text {
+      font-family: $main-font;
+      margin-left: $size-3x;
+    }
+    &-meter {
+      font-family: $main-font;
+      margin-left: $size-12x + 88;
+      font-weight: $fifth-font-weight;
+    }
+  }
+}

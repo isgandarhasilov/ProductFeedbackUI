@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: $main-font;
+  padding: $size-5x;
+  background: $secondary-color;
+  color: $third-color;
+  margin: $size-2x;
+  border-radius: $size-2x;
+  .header-left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    .header-setting {
+      font-weight: $fifth-font-weight;
+      color: $third-color;
+      padding: $size-5x;
+    }
+    .header-suggestions {
+      font-weight: $fifth-font-weight;
+      color: $third-color;
+      padding: $size-5x;
+    }
+    .header-sorting span:nth-child(2) {
+      font-weight: $third-font-weight;
+    }
+  }
+  .header-button {
+    font-weight: $fifth-font-weight;
+    color: $third-color;
+  }
+}

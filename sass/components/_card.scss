@@ -1,0 +1,24 @@
+.card {
+  padding: $size-12x $size-3x $size-3x !important;
+  border-radius: $size-2x;
+  background: $color-radial-gradient;
+  .card-title {
+    font-weight: $fifth-font-weight;
+    color: $third-color;
+    font-size: $size-5x;
+    font-family: $main-font;
+    line-height: $third-line-height;
+  }
+  .card-subtitle {
+    color: $third-color;
+    font-size: $size-3x;
+    font-family: $main-font;
+    line-height: $third-line-height;
+  }
+}
+
+.card-main {
+  padding: $size-2x !important;
+  border-radius: $size-2x;
+  background: darken($third-color-dark, 5%);
+}

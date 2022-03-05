@@ -1,0 +1,48 @@
+.btn-meter-main {
+  font-weight: $third-font-weight;
+  line-height: $secondary-line-height;
+  text-align: center;
+  text-decoration: none;
+  background-color: $third-color-darken;
+  border-radius: $size-x;
+  color: $secondary-color;
+  display: inline-block;
+  padding: $size-2x;
+  margin: $size-x;
+  font-family: $main-font;
+  transition: $main-transition;
+  cursor: pointer;
+  &:active {
+    background-color: darken($third-color-darken, 30%);
+    transition: $main-transition;
+  }
+  &:hover {
+    color: $third-color;
+    transition: $main-transition;
+    background-color: darken($third-color-darken, 30%);
+  }
+}
+
+.btn-meter-primary {
+  font-weight: $third-font-weight;
+  line-height: $secondary-line-height;
+  text-align: center;
+  text-decoration: none;
+  background-color: $third-color-darken;
+  border-radius: $size-2x;
+  color: $primary-color;
+  display: inline-block;
+  padding: $size-3x;
+  font-family: $main-font;
+  transition: $main-transition;
+  cursor: pointer;
+  &:active {
+    background-color: darken($third-color-darken, 30%);
+    transition: $main-transition;
+  }
+  &:hover {
+    color: $third-color;
+    transition: $main-transition;
+    background-color: darken($third-color-darken, 30%);
+  }
+}

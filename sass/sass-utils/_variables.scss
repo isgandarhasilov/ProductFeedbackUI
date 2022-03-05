@@ -1,0 +1,66 @@
+// Fonts
+$main-font: 'Jost', sans-serif;
+
+// Container width
+$main-coantainer-width: 1200px;
+
+// Line height
+$main-line-height:14px;
+$primary-line-height:16px;
+$secondary-line-height:20px;
+$third-line-height:24px;
+$fourth-line-height:30px;
+$fifth-line-height:32px;
+
+// Font weight
+$default-font-weight:200;
+$main-font-weight: $default-font-weight + 100;
+$primary-font-weight: $main-font-weight + 100;
+$secondary-font-weight: $primary-font-weight + 100;
+$third-font-weight: $secondary-font-weight + 100;
+$forth-font-weight: $third-font-weight + 100;
+$fifth-font-weight: $forth-font-weight + 100;
+
+// Font size
+$font-size-default: 12px;
+$font-size-main: $font-size-default + 2px;
+$font-size-primary: $font-size-main + 2px;
+$font-size-secondary: $font-size-primary + 2px;
+$font-size-third: $font-size-secondary + 2px;
+
+// Colors
+$main-color: rgb(173, 31, 234);
+$primary-color: rgb(70, 97, 230);
+$primary-color-light: rgb(98, 188, 250);
+$secondary-color: rgb(55, 63, 104);
+$secondary-color-light: rgb(58, 67, 116);
+$secondary-color-lighten: rgb(100, 113, 150);
+$third-color: rgb(255, 255, 255);
+$third-color-dark: rgb(247, 248, 253);
+$third-color-darken: rgb(242, 244, 255);
+$forth-color: rgb(244, 159, 133);
+$forth-color-darken: rgb(255, 55, 55);  
+$color-radial-gradient: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+
+// Spacing
+$size-reset:0;
+$size-x:5px;
+$size-2x:$size-x*2;
+$size-3x:$size-x*3;
+$size-4x:$size-x*4;
+$size-5x:$size-x*5;
+$size-6x:$size-x*6;
+$size-7x:$size-x*7;
+$size-8x:$size-x*8;
+$size-9x:$size-x*9;
+$size-10x:$size-x*10;
+$size-11x:$size-x*11;
+$size-12x:$size-x*12;
+
+// Transition
+$main-transition: all 0.3s linear;
+
+// Default Border
+.border{
+    border: 1px solid red;
+}

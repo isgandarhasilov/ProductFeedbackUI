@@ -1,0 +1,97 @@
+.btn-main {
+  text-decoration: none;
+  background-color: $main-color;
+  border-radius: $size-2x;
+  color: $third-color;
+  display: inline-block;
+  padding: $size-3x $size-9x;
+  font-family: $main-font;
+  transition: $main-transition;
+  cursor: pointer;
+  &:hover {
+    transition: $main-transition;
+    background-color: lighten($main-color, 10%);
+  }
+}
+
+.btn-primary {
+  text-decoration: none;
+  background-color: $primary-color;
+  border-radius: $size-2x;
+  color: $third-color;
+  display: inline-block;
+  padding: $size-3x $size-9x;
+  font-family: $main-font;
+  transition: $main-transition;
+  cursor: pointer;
+  &:hover {
+    transition: $main-transition;
+    background-color: lighten($primary-color, 10%);
+  }
+}
+
+.btn-dark {
+  text-decoration: none;
+  background-color: $secondary-color;
+  border-radius: $size-2x;
+  color: $third-color;
+  display: inline-block;
+  padding: $size-3x $size-9x;
+  font-family: $main-font;
+  transition: $main-transition;
+  cursor: pointer;
+  &:hover {
+    transition: $main-transition;
+    background-color: lighten($secondary-color, 10%);
+  }
+}
+
+.btn-red {
+  text-decoration: none;
+  background-color: darken($forth-color, 30%);
+  border-radius: $size-2x;
+  color: $third-color;
+  display: inline-block;
+  padding: $size-3x $size-9x;
+  font-family: $main-font;
+  transition: $main-transition;
+  cursor: pointer;
+  &:hover {
+    transition: $main-transition;
+    background-color: lighten(darken($forth-color, 30%), 20%);
+  }
+}
+
+.btn-back-main {
+  text-decoration: none;
+  background-color: transparent;
+  color: $secondary-color;
+  font-weight: $third-font-weight;
+  display: inline-block;
+  padding: $size-3x $size-9x;
+  font-family: $main-font;
+  transition: $main-transition;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+    transition: $main-transition;
+  }
+}
+
+.btn-back-dark {
+  text-decoration: none;
+  background-color: $secondary-color;
+  color: $third-color;
+  font-weight: $third-font-weight;
+  display: inline-block;
+  padding: $size-4x $size-9x;
+  font-family: $main-font;
+  transition: $main-transition;
+  border-radius: $size-2x;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+    background-color: lighten($secondary-color, 10%);
+    transition: $main-transition;
+  }
+}
